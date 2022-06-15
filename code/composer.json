@@ -1,0 +1,19 @@
+{
+  "autoload": {
+      "psr-4": {
+          "App\\": "src/"
+      }
+  },
+  "name": "assel/admin",
+  "require": {
+    "ext-pdo": "*",
+    "slim/slim": "^4.10",
+    "slim/psr7": "^1.5"
+  },
+  "authors": [
+      {
+          "name": "Nils Assel",
+          "email": "assel.nils.developer@web.de"
+      }
+  ]
+}

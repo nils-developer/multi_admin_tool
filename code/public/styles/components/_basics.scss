@@ -1,0 +1,28 @@
+$secondary: #e7e7e7;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+aside {
+  height: 100vh;
+  border-right: 1px solid $secondary;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  cursor: pointer;
+}
+

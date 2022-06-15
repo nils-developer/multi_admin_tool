@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  %head%
+  
+  <body>
+    
+    <header class="l_main">
+      <h1>Dashboard</h1>
+    </header>
+
+    <hr>
+  
+    <section class="l_main">
+
+      %aside%
+
+      <div class="l_content">
+        <div class="mt-4">
+
+          <div class="d-flex flex-column">
+
+            <div class="d-flex justify-content-center flex-row list-group list-group-horizontal content--nav">
+              <a class="link content--nav__link" href="/php/admin/code/public/index.php/exam/exam-dates">
+                <button class="btn btn-outline-dark button">Exams Dates</button>
+              </a>
+              <a class="link content--nav__link" href="#">
+                <button class="btn btn-outline-dark button">Exam marks</button>
+              </a>
+              <a class="link content--nav__link active" href="/php/admin/code/public/index.php/exam/add-exam">
+                <button class="btn btn-outline-dark button">+</button>
+              </a>
+            </div>
+
+            <div class="l_content mt-4">
+              <form>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput" class="form-label">Date</label>
+                  <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Date" name="examDate">
+                </div>
+                <div class="mb-3">
+                  <label for="formGroupExampleInput2" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Subject" name="examSubject">
+                </div>
+                <div class="form-floating mb-3">
+                  <label for="floatingTextarea">To study</label>
+                  <textarea class="form-control" placeholder="Topics" id="floatingTextarea" name="examTopics"></textarea>
+                </div>
+                <div class="d-flex justify-content-end mb-5">
+                  <button class="btn btn-outline-secondary button">Add to Exams</button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    %footer%
+
+  </body>
+</html>

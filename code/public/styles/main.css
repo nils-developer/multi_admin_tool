@@ -1,0 +1,101 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+.nav--item {
+  width: 110%;
+  padding-right: 0.1rem;
+  border-top: 1px solid lightgray;
+}
+
+.nav--item:hover {
+  border-color: gray;
+}
+
+.nav--item:last-child {
+  border-bottom: 1px solid lightgray;
+}
+
+.nav--link:hover {
+  color: darkgray;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+aside {
+  height: 100vh;
+  border-right: 1px solid #e7e7e7;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.l_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem 1rem;
+}
+
+.l_content {
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+.card {
+  width: 25%;
+  height: 21%;
+  min-height: 200px;
+  margin: 0 2rem;
+}
+
+.content--nav {
+  height: 4.5rem;
+}
+
+.content--nav__link {
+  margin: 0 1rem;
+}
+
+.button {
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 0.75rem 1.25rem;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+/*# sourceMappingURL=main.css.map */
